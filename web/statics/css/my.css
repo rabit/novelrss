@@ -1,0 +1,19 @@
+/* unvisited link */
+.novellink a:link {
+    color: red;
+}
+
+/* visited link */
+.novellink a:visited {
+    color: green;
+}
+
+/* mouse over link */
+.novellink a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+.novellink a:active {
+    color: blue;
+}

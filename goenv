@@ -1,0 +1,10 @@
+export GO111MODULE=on
+export WORKSPACE=`pwd`
+export PROJ_NAME=$(basename $WORKSPACE)
+export GOPATH=$WORKSPACE/vendor
+export GOROOT=$HOME/prog/golang/root/go1.12.7
+export PATH=$GOROOT/bin:$GOPATH/bin:$PATH
+export GOVERSION=$(go version | cut -d' ' -f3)
+export PS1="($PROJ_NAME@$GOVERSION)\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ "
+alias wd='cd $WORKSPACE'
+alias mysql='mysql --pager="less -niSFX"'
