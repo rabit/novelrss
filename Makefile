@@ -12,7 +12,7 @@ novelrss-packr.go: $(ASSETS_SRCS)
 packr2: $(GOPATH)/bin/packr2
 
 $(GOPATH)/bin/packr2:
-	go get -u github.com/gobuffalo/packr/v2/packr2
+	go get github.com/gobuffalo/packr/v2/packr2
 
 .PHONY: clean
 clean:

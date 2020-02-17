@@ -13,3 +13,6 @@
 
 # third party packages
 vendor/
+novelrss
+novelrss-packr.go
+packrd/

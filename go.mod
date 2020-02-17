@@ -14,11 +14,11 @@ require (
 	github.com/gin-contrib/static v0.0.0-20190511124741-c1cdf9c9ec7b
 	github.com/gin-gonic/gin v1.4.0
 	github.com/go-kit/kit v0.9.0 // indirect
-	github.com/gobuffalo/logger v1.0.1 // indirect
-	github.com/gobuffalo/packr/v2 v2.5.2
+	github.com/gobuffalo/packr/v2 v2.7.1
 	github.com/golang/groupcache v0.0.0-20190702054246-869f871628b6 // indirect
 	github.com/gorilla/feeds v1.1.1
 	github.com/grpc-ecosystem/grpc-gateway v1.9.4 // indirect
+	github.com/karrick/godirwalk v1.10.12 // indirect
 	github.com/kisielk/errcheck v1.2.0 // indirect
 	github.com/kr/pty v1.1.8 // indirect
 	github.com/magiconair/properties v1.8.1 // indirect
@@ -42,6 +42,5 @@ require (
 	golang.org/x/mobile v0.0.0-20190719004257-d2bd2a29d028 // indirect
 	golang.org/x/net v0.0.0-20190628185345-da137c7871d7 // indirect
 	golang.org/x/sys v0.0.0-20190712062909-fae7ac547cb7 // indirect
-	golang.org/x/tools v0.0.0-20190719005602-e377ae9d6386 // indirect
 	google.golang.org/grpc v1.22.0 // indirect
 )
